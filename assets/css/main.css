@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #4b2e83 !important;
 		}
 
 	strong, b {
@@ -1789,7 +1789,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #4b2e83;
 		}
 
 	.select-wrapper {
@@ -1899,7 +1899,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #4b2e83;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2379,7 +2379,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #4b2e83;
 			color: #ffffff !important;
 		}
 
@@ -2461,7 +2461,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4b2e83; /* #4acaa8; color of sidebar background */
+		background: #4b2e83; /* #4b2e83; color of sidebar background */
 		color: #d9d9d9; /* #d1f1e9; */
 		height: 100%;
 		overflow-y: auto;
