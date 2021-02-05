@@ -19,16 +19,15 @@
 					<h1 id="logo"><a href="#">Meredith L. Rawls</a></h1>
 					<p>Research Scientist<br />
 					Vera C. Rubin Observatory<br />
-					LSST Data Management<br />
+					Legacy Survey of Space and Time<br />
 					Stellar Astronomer</p>
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#about" class="active">About</a></li>
 						<li><a href="#software">Software</a></li>
+						<li><a href="#satellites">Satellites</a></li>
 						<li><a href="#stars">Stars</a></li>
 						<li><a href="#beyond">Beyond</a></li>
-						<li><a href="#publications">Publications</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -56,16 +55,16 @@
 									<header class="major">
 										<h2>Meredith L. Rawls, PhD</h2>
 										<p>Developing software for a firehose of telescope data
-										and using binary stars to study the cosmos</p>
+										and characterizing changing things — they aren't <i>all</i> satellites</p>
 									</header>
-									<p>I work with the Rubin Observatory Legacy Survey of Space and Time (LSST) 
-									<a href="https://www.lsst.org/about/dm">Data Management</a> group at the
+									<p>I work with the Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST)
+									group at the
 									University of Washington. I am a Research Scientist in the Department of Astronomy
-									and a <a href="https://dirac.astro.washington.edu">DIRAC</a> Fellow.
-									The LSST will collect frames for a decade-long movie of the sky beginning
-									in 2022. My team develops software to process terabytes of nightly data.
-									I'm also an active researcher in stellar astrophysics and a relentless 
-									science communicator.</p>
+									and a <a href="https://dirac.astro.washington.edu">DiRAC</a> Fellow.
+									The LSST will collect frames for a ten-year high-res full-color movie of the night sky beginning
+									in 2023.
+									My background is in stellar astrophysics, and I also work to understand
+									and disseminate how the proliferation of Low-Earth-orbit satellites affects astronomy.</p>
 									<p><a href="mrawls_cv.pdf">My CV in PDF form is available here</a>.</p>
 								</div>
 							</section>
@@ -73,48 +72,74 @@
 						<!-- Software -->
 							<section id="software">
 								<div class="container">
-									<h3>Software by and for astronomers</h3>
+									<h3>Software for Rubin Observatory and beyond</h3>
 									<p>Astronomy has come a long way since sketching the view through a handheld telescope,
-									and modern-day astronomers use a wide array of software to study digital images of the sky.</p>
+									and modern-day astronomers use and develop a wide array of software to study digital images of the sky.</p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/lsst01.png" alt="panoramic rendering of the finished LSST at Cerro Pachon in Chile" /></a>
 											<div class="inner">
 												<h4>Things that go bump in the night</h4>
-												<p>LSST's Data Management team at the University of Washington
+												<p>LSST's team at the University of Washington
 												focuses on Alert Production. We are writing algorithms to process huge images
-												from the LSST camera in real time, identify objects in the night sky that have changed,
-												and issue an appropriate alert so these interesting targets can be followed up.<br />
-												<a href="https://www.lsst.org/about/dm">Learn more about our work here</a>.</p>
+											    in real time, identify objects in the night sky that have changed,
+												and issue an appropriate alert so these interesting targets can be followed up.
+												Try our <a href="https://pipelines.lsst.io">Science Pipelines</a>.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/hits-diffim.png" alt="cartoon of difference imaging showing new image, template image, and difference image" /></a>
 											<div class="inner">
 												<h4>Difference imaging precursor datasets</h4>
-												<p>LSST will subtract a reference template image from a new image fresh off the telescope,
+												<p>The LSST will subtract a reference template image from new images,
 												and anything that changes or moves may be interesting.
 												I work to measure and reduce false positives in difference images for
-												precursor datasets, and I develop
+												precursor datasets and develop
 												visualization tools for large-scale difference imaging.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/scicoder01.jpg" alt="astronomers collaborating on programming around circular tables in a conference room" /></a>
-											<div class="inner">
-												<h4>Building tools for the community</h4>
-												<p>The software being designed for LSST images is open source
-												and works with popular python packages like <a href="http://www.astropy.org">astropy</a>.
-												Astronomers worldwide can use our tools to analyze
-												data from their favorite telescope too.<br />
-												<a href="https://pipelines.lsst.io">Check out the LSST Science Pipelines here</a>.</p>
 											</div>
 										</article>
 									</div>
 								</div>
 							</section>
 
-	                <!-- Stars -->
+							<!-- Satellites -->
+							<section id="satellites">
+								<div class="container">
+									<h3>Satellites pose a serious problem to astronomy</h3>
+									<p>Several companies and countries plan to launch tens of thousands
+										of low-Earth-orbit satellites in the coming years.
+										This has the potential to harm ground-based astronomy, clutter the orbital environment,
+										and disrupt stargazers worldwide.
+									</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/decam-satellites.jpg" alt="mosaic image of b&w starry sky with more than a dozen bright satellite streaks" /></a>
+											<div class="inner">
+												<h4>Crucial mitigations for operators</h4>
+												<p>I co-authored reports from two key 2020 workshops on satellite constellation
+													brightness mitigation. Key recommendations include designing satellites to be
+													7th V magnitude or dimmer, sharing timely, accurate and precise trajectories,
+													and keeping all satellites at low altitudes (below ~600 km).<br />
+													Read and implement our recommendations from the <a href="https://www.iau.org/news/announcements/detail/ann21002/">Dark & Quiet Skies</a> and
+													<a href="https://aas.org/satellite-constellations-1-workshop-report">SATCON 1</a> workshops.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/starlink-mag.png" alt="multi-color image of the DECam field of view with a difference imaging cartoon overlaid" /></a>
+											<div class="inner">
+												<h4>Assessing brightness mitigations</h4>
+												<p>We must measure satellite streaks in real telescope images to
+													quantify the impact of numerous bright low-Earth-orbit satellites on observational astronomy.
+													This figure (by me, from <a href="https://doi.org/10.3847/1538-3881/abba3e">Tyson et al. 2020</a>) shows a darkening
+													mitigation from SpaceX Starlink's "DarkSat" (1130) observed
+												    in early 2020. This is a fast-developing research area that lacks a clear funding source.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+							<!-- Stars -->
 							<section id="stars">
 								<div class="container">
 									<h3>Stars are not always predictable</h3>
@@ -125,7 +150,7 @@
 											<a href="#" class="image"><img src="images/ztfwtf.jpg" alt="illustration of comet and dust debris blocking thie light from a star" /></a>
 											<div class="inner">
 												<h4>Searching for mysterious dippers</h4>
-												<p>I am collaborating with researchers in UW's DIRAC Institute to search new
+												<p>I collaborated with researchers in UW's DIRAC Institute to search new
 												data from the <a href="https://www.ztf.caltech.edu">Zwicky Transient Facility</a>
 												for strange variable stars similar to Boyajian's Star.
 												I co-wrote <a href="https://astrobites.org/2015/11/25/kic-8462852-whats-the-fuss/">
@@ -136,12 +161,11 @@
 											<a href="#" class="image"><img src="images/decam-diffim.png" alt="multi-color image of the DECam field of view with a difference imaging cartoon overlaid" /></a>
 											<div class="inner">
 												<h4>Comparing difference imaging pipelines</h4>
-												<p>I am working with UW undergrad Thomas Waters to compare
+												<p>I worked with undergrad Thomas Waters to compare
 												variable sources classified in the High Cadence Transient Survey (HiTS) data release
 												with the same data processed with LSST software.
-												HiTS is an LSST precursor we can use to improve LSST software
-												before the 10-year survey begins. Thomas is particularly interested in
-												analyzing difference imaging light curves of variable Active Galactic Nuclei.
+												Thomas is interested in Active Galactic Nuclei and black holes,
+												and subsequently joined Jessica Werk's research group.
 												Courtney Hooks also worked on this project
 												with us in Fall 2019 with the <a href="http://depts.washington.edu/premap/cohort-15-research-projects/">
 												Pre-MAP 15 Cohort</a>.</p>
@@ -156,8 +180,7 @@
 												and the <a href="http://www.sdss.org/surveys/apogee-2/">APOGEE spectrograph</a>.
 												The main result was <a href="https://ui.adsabs.harvard.edu/abs/2019AJ....158..106C/abstract">
 												a paper</a> by Joni Marie Clark Cunningham for whom this project
-												comprised the majority of her Master's Thesis. We measured precise masses and radii
-												for seven binary pairs and modeled their evolutionary histories.
+												comprised the majority of her Master's Thesis.
 												The collaboration had team members from Fisk-Vanderbilt, New Mexico State University, and UW.<p>
 											</div>
 										</article>
@@ -166,15 +189,15 @@
 											<div class="inner">
 												<h4>Eclipsing binaries and asteroseismology</h4>
 												<p>Because there are many more <a href="http://asteroseismology.org">oscillating stars</a>
-												than eclipsing binaries, my PhD thesis modeled binaries as a 
-												benchmark for measuring stellar properties with asteroseismology. 
-												My team and I revealed that some evolved red giants 
+												than eclipsing binaries, my PhD thesis modeled binaries as a
+												benchmark for measuring stellar properties with asteroseismology.
+												My team and I revealed that some evolved red giants
 												in binary systems don't oscillate at all.
 												<a href="https://astronomerrdiff.wordpress.com/2016/01/19/the-double-red-giant-with-odd-oscillations/">
 												Read about one particularly interesting binary</a>.</p>
 											</div>
 										</article>
-										
+
 				                    </div>
 								</div>
 							</section>
@@ -183,15 +206,12 @@
 							<section id="beyond">
 								<div class="container">
 									<h3>Beyond research and programming</h3>
-									<p>I am involved in a variety of important projects in addition to 
-									my work with LSST and stellar astronomy.</p>
+									<p>I am involved in a variety of projects in addition to Rubin Observatory, satellites, and stellar astronomy.</p>
 									<ul class="feature-icons">
 										<li class="fa-users"><a href="http://comscicon.com/">ComSciCon</a><br />
-										Ambassador, 2019–present<br />
-										Chair, ComSciCon-PNW 2017</li>
-										<li class="fa-code"><a href="http://software-carpentry.org">Software Carpentry</a><br />
-										Certified instructor (bash, git, python)<br />
-										Regular workshops at UW eScience</li>
+										Attendee, PNW Chair, & Ambassador</li>
+										<li class="fa-code"><a href="http://software-carpentry.org">Software & Astro Data Carpentry</a><br />
+										Certified instructor (bash, git, python)</li>
 										<li class="fa-pencil"><a href="https://astrobites.org">Astrobites Collaboration</a><br />
 										The astro-ph reader's digest</li>
 										<!-- <li class="fa-tree"><a href="https://www.ghostranch.org/instructors/meredith-rawls/">Retreat Instructor</a><br />
@@ -211,41 +231,15 @@
 									</ul>
 								</div>
 							</section>
-                                                        
+
 						<!-- Publications -->
 							<section id="publications">
 								<div class="container">
 									<h3>Publications</h3>
-									<ul>
-									<li><em>APOGEE/Kepler Overlap Yields Orbital Solutions for a Variety of Eclipsing Binaries</em><br />
-                                    J. M. C. Cunningham, <strong>M. L. Rawls</strong>, D. Windemuth, A. Ali, et al. <a href="https://ui.adsabs.harvard.edu/abs/2019AJ....158..106C/abstract">2019, AJ, 158, 106</a></li>
-									
-									<li><em>An Overview of the LSST Image Processing Pipelines</em><br />
-                                    J. Bosch, [24 alphabetized co-authors], <strong>M. L. Rawls</strong>, [8 alphabetized co-authors]. <a href="https://ui.adsabs.harvard.edu/#abs/2018arXiv181203248B/abstract">2018, ADASS XXVIII</a></li>
-									
-									<li><em>DMTN-039: A Prototype Alert Production Pipeline</em><br />
-									<strong>M. L. Rawls</strong> 2017, LSST Data Management Technical Note, <a href="https://dmtn-039.lsst.io">dmtn-039.lsst.io</a></li>
-									
-									<li><em>Testing the Asteroseismic Scaling Relations for Red Giants with Eclipsing Binaries Observed by Kepler</em><br />
-                                    P. Gaulme, J. McKeever, J. Jackiewicz, <strong>M. L. Rawls</strong>, et al. <a href="https://ui.adsabs.harvard.edu/#abs/2016ApJ...832..121G/abstract">2016, ApJ, 832, 121</a></li>
-                                    
-                                    <li><em>Red Giants in Eclipsing Binaries as a Benchmark for Asteroseismology</em><br />
-                                    <strong>M. L. Rawls</strong> <a href="https://ui.adsabs.harvard.edu/#abs/2016PhDT........13R/abstract">2016, PhD Thesis</a><br />
-                                    Committee: J. Jackiewicz (chair), L. Boucheron, P. Gaulme, T. Harrison, & R. Walterbos</li>
- 
-                                    <li><em>KIC 9246715: The Double Red Giant Eclipsing Binary With Odd Oscillations</em><br />
-                                    <strong>M. L. Rawls</strong>, P. Gaulme, J. McKeever, J. Jackiewicz, et al. <a href="https://ui.adsabs.harvard.edu/#abs/2016ApJ...818..108R/abstract">2016, ApJ, 818, 108</a></li>
-                                    
-                                    <li><em>Red Giants in Eclipsing Binary and Multiple-Star Systems: Modeling and Asteroseismic Analysis of 70 Candidates from Kepler Data</em><br />
-                                    P. Gaulme, J. McKeever, <strong>M. L. Rawls</strong>, J. Jackiewicz, et al. <a href="https://ui.adsabs.harvard.edu/#abs/2013ApJ...767...82G/abstract">2013, ApJ, 767, 82</a></li>
-                                    
-                                    <li><em>Refined Neutron Star Mass Determinations for Six Eclipsing X-Ray Pulsar Binaries</em><br />
-                                    <strong>M. L. Rawls</strong>, J. A. Orosz, J. E. McClintock, M. A. P. Torres, et al. <a href="https://ui.adsabs.harvard.edu/#abs/2011ApJ...730...25R/abstract">2011, ApJ, 730, 25</a></li>
-									</ul>
-									<a href="https://ui.adsabs.harvard.edu/#search/q=%20author%3A%22Rawls%2C%20M.%20L.%22&sort=date%20desc%2C%20bibcode%20desc">
+									<a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%221%2FRawls%2C%20M%2FRawls%2C%20Meredith%20L%22%20OR%20author_facet_hier%3A%221%2FRawls%2C%20M%2FRawls%2C%20M%20%20L%22%20OR%20author_facet_hier%3A%221%2FRawls%2C%20M%2FRawls%2C%20Meredith%22%20OR%20author_facet_hier%3A%221%2FRawls%2C%20M%2FRawls%2C%20M%22)&p_=0&q=%20author%3A%22Rawls%2C%20M.%20L.%22&sort=date%20desc%2C%20bibcode%20desc">
 									View my publications on ADS</a><br /><br />
 									<a href="mrawls_cv.pdf">CV</a>
-								</div>	
+								</div>
 							</section>
 
 
